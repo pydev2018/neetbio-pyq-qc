@@ -17,7 +17,7 @@ import streamlit as st
 APP_DIR = Path(__file__).parent
 DATA_DIR = APP_DIR / "data"
 MATCHED_FILE = DATA_DIR / "all_pyqs_matched.json"
-ALL_PYQS_FILE = DATA_DIR / "all_pyqs.json"
+ALL_PYQS_FILE = DATA_DIR / "pyqs_slim.json"
 PARENTS_FILE = DATA_DIR / "parents_slim.json"
 
 # ─── Load data ──────────────────────────────────────────────────────────────
@@ -28,8 +28,7 @@ def load_matched():
 
 @st.cache_data
 def load_all_pyqs():
-    pyqs = json.loads(ALL_PYQS_FILE.read_text())
-    return {p["id"]: p for p in pyqs}
+    return json.loads(ALL_PYQS_FILE.read_text())
 
 @st.cache_data
 def load_parents():
