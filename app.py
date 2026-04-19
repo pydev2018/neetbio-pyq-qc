@@ -149,19 +149,24 @@ with left:
     if options:
         st.write("**OPTIONS:**")
         for opt in options:
-            key = opt.get("key", "")
-            text = opt.get("text", "")
-            line = f"{key}) {text}"
+            key = str(opt.get("key", "?"))
+            text = str(opt.get("text", "(no text)"))
             if key == claimed_key and key == gpt_key:
-                st.success(f"{line}    [CORRECT — claimed + GPT agree]")
+                st.success(f"{key}) {text}    [CORRECT — claimed + GPT agree]")
             elif key == claimed_key:
-                st.success(f"{line}    [CLAIMED CORRECT]")
+                st.success(f"{key}) {text}    [CLAIMED CORRECT]")
             elif key == gpt_key:
-                st.warning(f"{line}    [GPT SAYS CORRECT]")
+                st.warning(f"{key}) {text}    [GPT SAYS CORRECT]")
             else:
-                st.text(f"  {line}")
+                st.write(f"    {key}) {text}")
     else:
-        st.write("*(No options available)*")
+        st.write("*(No options available — check raw JSON below)*")
+
+    # Debug: show if pyq_data was found
+    if not pyq_data:
+        st.error(f"PYQ data not found for ID: {pyq_id}")
+    elif not options:
+        st.warning(f"PYQ found but no options. Keys: {list(pyq_data.keys())}")
 
     # GPT reasoning
     if gpt_verification:
