@@ -151,14 +151,15 @@ with left:
         for opt in options:
             key = opt.get("key", "")
             text = opt.get("text", "")
+            line = f"{key}) {text}"
             if key == claimed_key and key == gpt_key:
-                st.write(f"  :green[**{key})** {text}  <-- correct (claimed + GPT agree)]")
+                st.success(f"{line}    [CORRECT — claimed + GPT agree]")
             elif key == claimed_key:
-                st.write(f"  :green[**{key})** {text}  <-- claimed correct]")
+                st.success(f"{line}    [CLAIMED CORRECT]")
             elif key == gpt_key:
-                st.write(f"  :orange[**{key})** {text}  <-- GPT says correct]")
+                st.warning(f"{line}    [GPT SAYS CORRECT]")
             else:
-                st.write(f"  **{key})** {text}")
+                st.text(f"  {line}")
     else:
         st.write("*(No options available)*")
 
