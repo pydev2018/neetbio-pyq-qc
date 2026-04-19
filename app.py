@@ -17,7 +17,7 @@ import streamlit as st
 APP_DIR = Path(__file__).parent
 DATA_DIR = APP_DIR / "data"
 MATCHED_FILE = DATA_DIR / "all_pyqs_matched.json"
-ALL_PYQS_FILE = DATA_DIR / "pyqs_slim.json"
+ALL_PYQS_FILE = DATA_DIR / "pyqs_v2.json"
 PARENTS_FILE = DATA_DIR / "parents_slim.json"
 
 # ─── Load data ──────────────────────────────────────────────────────────────
@@ -43,6 +43,16 @@ st.caption("Review PYQ to NCERT matches for accuracy. Your wife's QC dashboard."
 matched = load_matched()
 all_pyqs = load_all_pyqs()
 parents = load_parents()
+
+# Debug: show data loading stats
+first_id = list(all_pyqs.keys())[0] if all_pyqs else "NONE"
+first_pyq = all_pyqs.get(first_id, {})
+st.sidebar.write(f"PYQ file: pyqs_v2.json")
+st.sidebar.write(f"PYQs loaded: {len(all_pyqs)}")
+st.sidebar.write(f"First ID: {first_id[:40]}")
+st.sidebar.write(f"First Q text: '{str(first_pyq.get('questionText','EMPTY'))[:40]}'")
+st.sidebar.write(f"First opt A: '{str(first_pyq.get('options',[{}])[0].get('text','EMPTY'))}'")
+
 
 # ─── Summary stats ──────────────────────────────────────────────────────────
 
