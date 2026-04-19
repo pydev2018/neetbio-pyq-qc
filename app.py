@@ -8,7 +8,6 @@ Run:
 """
 
 import json
-import os
 from pathlib import Path
 
 import streamlit as st
@@ -38,9 +37,9 @@ def load_parents():
 
 # ─── App ────────────────────────────────────────────────────────────────────
 
-st.set_page_config(page_title="PYQ Match QC", layout="wide")
-st.title("PYQ Matching QC")
-st.caption("Review PYQ → NCERT matches for accuracy")
+st.set_page_config(page_title="neet.bio — PYQ Match QC", layout="wide")
+st.title("neet.bio — PYQ Matching QC")
+st.caption("Review PYQ to NCERT matches for accuracy. Your wife's QC dashboard.")
 
 matched = load_matched()
 all_pyqs = load_all_pyqs()
@@ -120,36 +119,59 @@ with left:
     level = r.get("level_at_success")
     agrees = r.get("claim_agrees_with_gpt")
 
-    badge_color = {"matched": "green", "answer_not_in_ncert": "red", "claim_discrepancy_matched": "orange"}.get(cls, "gray")
-    st.markdown(f"**Status:** :{badge_color}[{cls}] | **Level:** {level} | **GPT Agrees:** {agrees}")
+    if cls == "matched":
+        st.success(f"MATCHED at Level {level} | GPT Agrees: {agrees}")
+    elif cls == "answer_not_in_ncert":
+        st.error(f"NOT IN NCERT | GPT Agrees: {agrees}")
+    elif cls == "claim_discrepancy_matched":
+        st.warning(f"CLAIM DISCREPANCY (matched with GPT's answer) | GPT Agrees: {agrees}")
+    else:
+        st.info(f"{cls} | Level: {level} | GPT Agrees: {agrees}")
 
-    st.markdown(f"**Year:** {r.get('year')} | **Type:** {r.get('pyq_type')} | **Source:** {r.get('source_pdf', '')[:40]}")
-    st.markdown(f"**Chapter:** `{r.get('chapter_id', 'unknown')}`")
+    st.write(f"**Year:** {r.get('year')} | **Type:** {r.get('pyq_type')} | **Source:** `{r.get('source_pdf', '')[:50]}`")
+    st.write(f"**Chapter assigned:** `{r.get('chapter_id', 'unknown')}`")
 
-    st.markdown("---")
+    st.divider()
 
-    # Question text
-    q_text = pyq_data.get("questionText", r.get("question_preview", ""))
-    st.markdown(f"**Q:** {q_text}")
+    # Question text — use st.write for safety, fallback to question_preview
+    q_text = pyq_data.get("questionText") or r.get("question_preview") or "(no question text)"
+    st.write("**QUESTION:**")
+    st.text(q_text)
+
+    st.write("")
 
     # Options
     options = pyq_data.get("options", [])
-    claimed_key = r.get("claimed_correct_key", "")
-    gpt_key = r.get("gpt_verification", {}).get("gpt_correct_key", "") if r.get("gpt_verification") else ""
+    claimed_key = r.get("claimed_correct_key", pyq_data.get("correctKey", ""))
+    gpt_verification = r.get("gpt_verification") or {}
+    gpt_key = gpt_verification.get("gpt_correct_key", "")
 
-    for opt in options:
-        key = opt.get("key", "")
-        text = opt.get("text", "")
-        marker = ""
-        if key == claimed_key:
-            marker = " :green[<-- claimed correct]"
-        if key == gpt_key and gpt_key != claimed_key:
-            marker += " :orange[<-- GPT says correct]"
-        st.markdown(f"**{key})** {text}{marker}")
+    if options:
+        st.write("**OPTIONS:**")
+        for opt in options:
+            key = opt.get("key", "")
+            text = opt.get("text", "")
+            if key == claimed_key and key == gpt_key:
+                st.write(f"  :green[**{key})** {text}  <-- correct (claimed + GPT agree)]")
+            elif key == claimed_key:
+                st.write(f"  :green[**{key})** {text}  <-- claimed correct]")
+            elif key == gpt_key:
+                st.write(f"  :orange[**{key})** {text}  <-- GPT says correct]")
+            else:
+                st.write(f"  **{key})** {text}")
+    else:
+        st.write("*(No options available)*")
 
-    if r.get("gpt_verification"):
-        gv = r["gpt_verification"]
-        st.caption(f"GPT reasoning: {gv.get('gpt_reasoning', '')} (confidence: {gv.get('gpt_confidence', '')})")
+    # GPT reasoning
+    if gpt_verification:
+        st.caption(f"GPT reasoning: {gpt_verification.get('gpt_reasoning', '')} (confidence: {gpt_verification.get('gpt_confidence', '')})")
+
+    # Explanation from original PYQ
+    explanation = pyq_data.get("explanation", "")
+    if explanation:
+        st.divider()
+        st.write("**Original explanation:**")
+        st.caption(explanation)
 
 with right:
     st.subheader("NCERT Match")
@@ -158,74 +180,71 @@ with right:
         parent_id = r.get("parent_block_id", "")
         parent = parents.get(parent_id, {})
 
-        st.markdown(f"**Parent block:** `{parent_id}`")
-        st.markdown(f"**Section:** {parent.get('section_title', 'unknown')}")
-        st.markdown(f"**Chapter:** `{parent.get('chapter_id', '')}`")
+        st.write(f"**Parent block:** `{parent_id}`")
+        st.write(f"**Section:** {parent.get('section_title', 'unknown')}")
+        st.write(f"**Chapter:** `{parent.get('chapter_id', '')}`")
 
-        # Answer span
+        # Answer span — the key thing to QC
         span_text = r.get("answer_span_text", "")
         if span_text:
-            st.markdown("**Answer span (verbatim from NCERT):**")
+            st.write("**Answer span (verbatim from NCERT):**")
             st.info(span_text)
 
         # All quotes
         all_quotes = r.get("all_quotes", [])
         if len(all_quotes) > 1:
-            st.markdown(f"**All quotes ({len(all_quotes)}):**")
+            st.write(f"**All extracted quotes ({len(all_quotes)}):**")
             for i, q in enumerate(all_quotes):
-                st.markdown(f"{i+1}. {q}")
+                st.write(f"  {i+1}. _{q}_")
 
         # Quote verifications
         verifs = r.get("quote_verifications", [])
         if verifs:
-            st.markdown("**Verification:**")
+            st.write("**Verbatim verification:**")
             for v in verifs:
-                icon = "white_check_mark" if v.get("verbatim_ok") else "x"
-                st.markdown(f":{icon}: `{v.get('match_type', '')}` — offsets [{v.get('relative_start')}, {v.get('relative_end')}]")
+                ok = v.get("verbatim_ok", False)
+                match_type = v.get("match_type", "unknown")
+                if ok:
+                    st.write(f"  :white_check_mark: `{match_type}` — offsets [{v.get('relative_start')}, {v.get('relative_end')}]")
+                else:
+                    st.write(f"  :x: `{match_type}` — NOT FOUND in parent text")
 
-        # Show the full parent content with the span highlighted
-        st.markdown("---")
-        st.markdown("**Full NCERT parent block:**")
+        # Full parent content with span highlighted
+        st.divider()
+        st.write("**Full NCERT parent block (answer highlighted):**")
         parent_content = parent.get("content", "")
-        if span_text and span_text in parent_content:
-            highlighted = parent_content.replace(
-                span_text,
-                f"**:yellow[{span_text}]**"
-            )
-            st.markdown(highlighted)
+        if parent_content:
+            if span_text and span_text in parent_content:
+                # Split around the span and show with highlight
+                before = parent_content[:parent_content.index(span_text)]
+                after = parent_content[parent_content.index(span_text) + len(span_text):]
+                st.text(before[-200:] if len(before) > 200 else before)
+                st.warning(span_text)
+                st.text(after[:200] if len(after) > 200 else after)
+            else:
+                st.text(parent_content[:2000])
         else:
-            st.text(parent_content[:2000])
+            st.write("*(Parent content not available)*")
 
         st.caption(r.get("notes", ""))
 
     else:
-        st.warning(f"Not matched: {cls}")
-        st.markdown(f"**Notes:** {r.get('notes', '')}")
+        st.error(f"Not matched: {cls}")
+        st.write(f"**Notes:** {r.get('notes', '')}")
 
         # Show what levels were tried
         levels_tried = r.get("levels_tried", [])
         if levels_tried:
-            st.markdown("**Levels tried:**")
+            st.write("**Levels tried:**")
             for lt in levels_tried:
                 st.caption(f"Level {lt.get('level')}: query='{lt.get('query', '')[:80]}...', parents_tried={lt.get('parents_tried')}")
 
-# ─── Navigation ─────────────────────────────────────────────────────────────
-
-st.divider()
-nav_col1, nav_col2, nav_col3 = st.columns([1, 2, 1])
-with nav_col1:
-    if pyq_idx > 1:
-        if st.button("Previous"):
-            st.rerun()
-with nav_col3:
-    if pyq_idx < len(filtered):
-        if st.button("Next"):
-            st.rerun()
-
 # ─── Raw JSON (collapsible) ─────────────────────────────────────────────────
 
-with st.expander("Raw match JSON"):
+st.divider()
+
+with st.expander("Raw match result JSON"):
     st.json(r)
 
-with st.expander("Raw PYQ JSON"):
+with st.expander("Raw PYQ data JSON"):
     st.json(pyq_data)
