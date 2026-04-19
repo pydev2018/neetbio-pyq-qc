@@ -147,6 +147,7 @@ with left:
 
     if options:
         st.write("**OPTIONS:**")
+        option_lines = []
         for opt in options:
             key = str(opt.get("key", "?"))
             text = str(opt.get("text", "(no text)"))
@@ -154,22 +155,15 @@ with left:
             is_gpt = (key == gpt_key)
 
             if is_claimed and is_gpt:
-                label = "CORRECT"
+                option_lines.append(f"  {key}  |  {text}  |  CORRECT (claimed + GPT agree)")
             elif is_claimed:
-                label = "CLAIMED"
+                option_lines.append(f"  {key}  |  {text}  |  CLAIMED CORRECT")
             elif is_gpt:
-                label = "GPT ANSWER"
+                option_lines.append(f"  {key}  |  {text}  |  GPT SAYS CORRECT")
             else:
-                label = ""
+                option_lines.append(f"  {key}  |  {text}  |")
 
-            # Build the display line
-            option_line = f"{key}. {text}"
-
-            if is_claimed or is_gpt:
-                color = "green" if is_claimed else "orange"
-                st.markdown(f":{color}[**{option_line}** --- {label}]")
-            else:
-                st.text(option_line)
+        st.code("\n".join(option_lines), language=None)
     else:
         st.write("No options available")
 
