@@ -151,22 +151,31 @@ with left:
         for opt in options:
             key = str(opt.get("key", "?"))
             text = str(opt.get("text", "(no text)"))
-            if key == claimed_key and key == gpt_key:
-                st.success(f"{key}) {text}    [CORRECT — claimed + GPT agree]")
-            elif key == claimed_key:
-                st.success(f"{key}) {text}    [CLAIMED CORRECT]")
-            elif key == gpt_key:
-                st.warning(f"{key}) {text}    [GPT SAYS CORRECT]")
-            else:
-                st.write(f"    {key}) {text}")
-    else:
-        st.write("*(No options available — check raw JSON below)*")
+            is_claimed = (key == claimed_key)
+            is_gpt = (key == gpt_key)
 
-    # Debug: show if pyq_data was found
+            if is_claimed and is_gpt:
+                label = "CORRECT"
+            elif is_claimed:
+                label = "CLAIMED"
+            elif is_gpt:
+                label = "GPT ANSWER"
+            else:
+                label = ""
+
+            # Build the display line
+            option_line = f"{key}. {text}"
+
+            if is_claimed or is_gpt:
+                color = "green" if is_claimed else "orange"
+                st.markdown(f":{color}[**{option_line}** --- {label}]")
+            else:
+                st.text(option_line)
+    else:
+        st.write("No options available")
+
     if not pyq_data:
-        st.error(f"PYQ data not found for ID: {pyq_id}")
-    elif not options:
-        st.warning(f"PYQ found but no options. Keys: {list(pyq_data.keys())}")
+        st.error(f"PYQ lookup failed for ID: {pyq_id}")
 
     # GPT reasoning
     if gpt_verification:
