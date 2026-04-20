@@ -1,86 +1,24 @@
 {
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_89": {
-    "questionText": "An interesting modification of flower shape for insect pollination occurs in some orchids in which a male insect mistakes the pattern on the orchid flower for the female species and tries to copulate with it, thereby pollinating the flower. This phenomenon is called",
-    "type": "mcq",
-    "year": 1998,
-    "options": [
-      {
-        "key": "A",
-        "text": "pseudopollination"
-      },
-      {
-        "key": "B",
-        "text": "pseudoparthenocarpy"
-      },
-      {
-        "key": "C",
-        "text": "mimicry"
-      },
-      {
-        "key": "D",
-        "text": "pseudocopulation"
-      }
-    ],
-    "correctKey": "D",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 1998",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_89",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_1": {
-    "questionText": "Functional megaspore in an angiosperm develops into an",
-    "type": "mcq",
-    "year": 2017,
-    "options": [
-      {
-        "key": "A",
-        "text": "endosperm"
-      },
-      {
-        "key": "B",
-        "text": "embryo sac"
-      },
-      {
-        "key": "C",
-        "text": "embryo"
-      },
-      {
-        "key": "D",
-        "text": "ovule"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2017",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_1",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_14": {
-    "questionText": "Filiform apparatus is characteristic feature of",
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_22": {
+    "questionText": "Which one of the following statements is not true?",
     "type": "mcq",
     "year": 2015,
     "options": [
       {
         "key": "A",
-        "text": "aleurone cell"
+        "text": "The flowers pollinated by flies and bats secrete foul odour to attract them."
       },
       {
         "key": "B",
-        "text": "synergids"
+        "text": "Honey is made by bees by digesting pollen collected from flowers."
       },
       {
         "key": "C",
-        "text": "generative cell"
+        "text": "Pollen grains are rich in nutrients and they are used in the form of tablets and syrups."
       },
       {
         "key": "D",
-        "text": "nucellar embryo"
+        "text": "Pollen grains of some plants cause severe allergies and bronchial afflictions in some people."
       }
     ],
     "correctKey": "B",
@@ -88,193 +26,7 @@
     "hasImage": false,
     "imageSummary": null,
     "examSession": "NEET 2015",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_14",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_40": {
-    "questionText": "Megaspores are produced from the megaspore mother cells after",
-    "type": "mcq",
-    "year": 2013,
-    "options": [
-      {
-        "key": "A",
-        "text": "mitotic division"
-      },
-      {
-        "key": "B",
-        "text": "formation of thick wall"
-      },
-      {
-        "key": "C",
-        "text": "differentiation"
-      },
-      {
-        "key": "D",
-        "text": "meiotic division"
-      }
-    ],
-    "correctKey": "D",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2013",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_40",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_100": {
-    "questionText": "Number of meiotic divisions required to produce 200/400 seeds of pea would be",
-    "type": "mcq",
-    "year": 1993,
-    "options": [
-      {
-        "key": "A",
-        "text": "200/400"
-      },
-      {
-        "key": "B",
-        "text": "400/800"
-      },
-      {
-        "key": "C",
-        "text": "300/600"
-      },
-      {
-        "key": "D",
-        "text": "250/500"
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 1993",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_100",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_45": {
-    "questionText": "Which one of the following is correctly matched?",
-    "type": "mcq",
-    "year": 2012,
-    "options": [
-      {
-        "key": "A",
-        "text": "Onion – Bulb"
-      },
-      {
-        "key": "B",
-        "text": "Ginger – Sucker"
-      },
-      {
-        "key": "C",
-        "text": "Chlamydomonas – Conidia"
-      },
-      {
-        "key": "D",
-        "text": "Yeast – Zoospores"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2012",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_45",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_49": {
-    "questionText": "Plants with ovaries having only one or a few ovules, are generally pollinated by",
-    "type": "mcq",
-    "year": 2012,
-    "options": [
-      {
-        "key": "A",
-        "text": "bees"
-      },
-      {
-        "key": "B",
-        "text": "butterflies"
-      },
-      {
-        "key": "C",
-        "text": "birds"
-      },
-      {
-        "key": "D",
-        "text": "wind"
-      }
-    ],
-    "correctKey": "D",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2012",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_49",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_71": {
-    "questionText": "In a cereal grain the single cotyledon of embryo is represented by",
-    "type": "mcq",
-    "year": 2006,
-    "options": [
-      {
-        "key": "A",
-        "text": "coleoptile"
-      },
-      {
-        "key": "B",
-        "text": "coleorhiza"
-      },
-      {
-        "key": "C",
-        "text": "scutellum"
-      },
-      {
-        "key": "D",
-        "text": "prophyll"
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2006",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_71",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_35": {
-    "questionText": "Megasporangium is equivalent to",
-    "type": "mcq",
-    "year": 2013,
-    "options": [
-      {
-        "key": "A",
-        "text": "nucellus"
-      },
-      {
-        "key": "B",
-        "text": "ovule"
-      },
-      {
-        "key": "C",
-        "text": "embryo sac"
-      },
-      {
-        "key": "D",
-        "text": "fruit"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2013",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_35",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_22",
     "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
     "chapterId": null
   },
@@ -309,119 +61,26 @@
     "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
     "chapterId": null
   },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_17": {
-    "questionText": "Coconut water from a tender coconut is",
-    "type": "mcq",
-    "year": 2015,
-    "options": [
-      {
-        "key": "A",
-        "text": "innermost layers of the seed coat"
-      },
-      {
-        "key": "B",
-        "text": "degenerated nucellus"
-      },
-      {
-        "key": "C",
-        "text": "immature embryo"
-      },
-      {
-        "key": "D",
-        "text": "free nuclear endosperm"
-      }
-    ],
-    "correctKey": "D",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2015",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_17",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_77": {
-    "questionText": "An ovule which becomes curved so that the nucellus and embryo sac lie at right angles to the funicle is",
-    "type": "mcq",
-    "year": 2004,
-    "options": [
-      {
-        "key": "A",
-        "text": "hemitropous"
-      },
-      {
-        "key": "B",
-        "text": "campylotropous"
-      },
-      {
-        "key": "C",
-        "text": "anatropous"
-      },
-      {
-        "key": "D",
-        "text": "orthotropous"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2004",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_77",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_88": {
-    "questionText": "The endosperm of gymnosperm is",
-    "type": "mcq",
-    "year": 1999,
-    "options": [
-      {
-        "key": "A",
-        "text": "diploid"
-      },
-      {
-        "key": "B",
-        "text": "polyploid"
-      },
-      {
-        "key": "C",
-        "text": "triploid"
-      },
-      {
-        "key": "D",
-        "text": "haploid"
-      }
-    ],
-    "correctKey": "D",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 1999",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_88",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_25": {
-    "questionText": "Which one of the following shows isogamy with non-flagellated gametes?",
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_30": {
+    "questionText": "Non-albuminous seed is produced in",
     "type": "mcq",
     "year": 2014,
     "options": [
       {
         "key": "A",
-        "text": "Sargassum"
+        "text": "maize"
       },
       {
         "key": "B",
-        "text": "Ectocarpus"
+        "text": "castor"
       },
       {
         "key": "C",
-        "text": "Ulothrix"
+        "text": "wheat"
       },
       {
         "key": "D",
-        "text": "Spirogyra"
+        "text": "pea"
       }
     ],
     "correctKey": "D",
@@ -429,534 +88,7 @@
     "hasImage": false,
     "imageSummary": null,
     "examSession": "NEET 2014",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_25",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_42": {
-    "questionText": "Which of the following statements is correct?",
-    "type": "mcq",
-    "year": 2013,
-    "options": [
-      {
-        "key": "A",
-        "text": "Sporopollenin can be degraded by enzymes."
-      },
-      {
-        "key": "B",
-        "text": "Sporopollenin is made up of inorganic materials."
-      },
-      {
-        "key": "C",
-        "text": "Sporopollenin can withstand high temperatures as well as strong acids and alkalis."
-      },
-      {
-        "key": "D",
-        "text": "Sporopollenin can withstand high temperatures but not strong acids."
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2013",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_42",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_24": {
-    "questionText": "Transmission tissue is characteristic feature of",
-    "type": "mcq",
-    "year": 2015,
-    "options": [
-      {
-        "key": "A",
-        "text": "dry stigma"
-      },
-      {
-        "key": "B",
-        "text": "wet stigma"
-      },
-      {
-        "key": "C",
-        "text": "hollow style"
-      },
-      {
-        "key": "D",
-        "text": "solid style"
-      }
-    ],
-    "correctKey": "D",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2015",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_24",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_53": {
-    "questionText": "The “eyes” of the potato tuber are",
-    "type": "mcq",
-    "year": 2011,
-    "options": [
-      {
-        "key": "A",
-        "text": "root buds"
-      },
-      {
-        "key": "B",
-        "text": "flower buds"
-      },
-      {
-        "key": "C",
-        "text": "shoot buds"
-      },
-      {
-        "key": "D",
-        "text": "axillary buds"
-      }
-    ],
-    "correctKey": "D",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2011",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_53",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_55": {
-    "questionText": "In angiosperms, functional megaspore develops into",
-    "type": "mcq",
-    "year": 2011,
-    "options": [
-      {
-        "key": "A",
-        "text": "embryo sac"
-      },
-      {
-        "key": "B",
-        "text": "ovule"
-      },
-      {
-        "key": "C",
-        "text": "endosperm"
-      },
-      {
-        "key": "D",
-        "text": "pollen sac"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2011",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_55",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_92": {
-    "questionText": "If an angiospermic male plant is diploid and female plant tetraploid, the ploidy level of endosperm will be",
-    "type": "mcq",
-    "year": 1997,
-    "options": [
-      {
-        "key": "A",
-        "text": "tetraploid"
-      },
-      {
-        "key": "B",
-        "text": "pentaploid"
-      },
-      {
-        "key": "C",
-        "text": "haploid"
-      },
-      {
-        "key": "D",
-        "text": "triploid"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 1997",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_92",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_95": {
-    "questionText": "The anthesis is a phenomenon, which refers to",
-    "type": "mcq",
-    "year": 1995,
-    "options": [
-      {
-        "key": "A",
-        "text": "development of anthers"
-      },
-      {
-        "key": "B",
-        "text": "opening of flower bud"
-      },
-      {
-        "key": "C",
-        "text": "stigma receptors"
-      },
-      {
-        "key": "D",
-        "text": "all of these"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 1995",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_95",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_84": {
-    "questionText": "In grasses what happens in microspore mother cell for the formation of mature pollen grains?",
-    "type": "mcq",
-    "year": 2001,
-    "options": [
-      {
-        "key": "A",
-        "text": "One meiotic and two mitotic divisions"
-      },
-      {
-        "key": "B",
-        "text": "One meiotic and one mitotic divisions"
-      },
-      {
-        "key": "C",
-        "text": "One meiotic division"
-      },
-      {
-        "key": "D",
-        "text": "One mitotic division"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2001",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_84",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_80": {
-    "questionText": "In angiosperms pollen tube liberate their male gametes into the",
-    "type": "mcq",
-    "year": 2002,
-    "options": [
-      {
-        "key": "A",
-        "text": "central cell"
-      },
-      {
-        "key": "B",
-        "text": "antipodal cells"
-      },
-      {
-        "key": "C",
-        "text": "egg cell"
-      },
-      {
-        "key": "D",
-        "text": "synergids"
-      }
-    ],
-    "correctKey": "D",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2002",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_80",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_62": {
-    "questionText": "Vegetative propagation in mint occurs by",
-    "type": "mcq",
-    "year": 2009,
-    "options": [
-      {
-        "key": "A",
-        "text": "offset"
-      },
-      {
-        "key": "B",
-        "text": "rhizome"
-      },
-      {
-        "key": "C",
-        "text": "sucker"
-      },
-      {
-        "key": "D",
-        "text": "runner"
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2009",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_62",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_8": {
-    "questionText": "The ovule of an angiosperm is technically equivalent to",
-    "type": "mcq",
-    "year": 2016,
-    "options": [
-      {
-        "key": "A",
-        "text": "megasporangium"
-      },
-      {
-        "key": "B",
-        "text": "megasporophyll"
-      },
-      {
-        "key": "C",
-        "text": "megaspore mother cell"
-      },
-      {
-        "key": "D",
-        "text": "megaspore"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2016",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_8",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_12": {
-    "questionText": "Which of the following statements is not correct?",
-    "type": "mcq",
-    "year": 2016,
-    "options": [
-      {
-        "key": "A",
-        "text": "Pollen germination and pollen tube growth are regulated by chemical components of pollen interacting with those of the pistil."
-      },
-      {
-        "key": "B",
-        "text": "Some reptiles have also been reported as pollinators in some plant species."
-      },
-      {
-        "key": "C",
-        "text": "Pollen grains of many species can germinate on the stigma of a flower, but only one pollen tube of the same species grows into the style."
-      },
-      {
-        "key": "D",
-        "text": "Insects that consume pollen or nectar without bringing about pollination are called pollen/ nectar robbers."
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2016",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_12",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_52": {
-    "questionText": "Which one of the following pollinations is autogamous?",
-    "type": "mcq",
-    "year": 2011,
-    "options": [
-      {
-        "key": "A",
-        "text": "Geitonogamy"
-      },
-      {
-        "key": "B",
-        "text": "Xenogamy"
-      },
-      {
-        "key": "C",
-        "text": "Chasmogamy"
-      },
-      {
-        "key": "D",
-        "text": "Cleistogamy"
-      }
-    ],
-    "correctKey": "D",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2011",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_52",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_73": {
-    "questionText": "In a type of apomixis known as adventive embryony, embryos develop directly from the",
-    "type": "mcq",
-    "year": 2005,
-    "options": [
-      {
-        "key": "A",
-        "text": "nucellus or integuments"
-      },
-      {
-        "key": "B",
-        "text": "zygote"
-      },
-      {
-        "key": "C",
-        "text": "synergids or antipodals in an embryo sac"
-      },
-      {
-        "key": "D",
-        "text": "accessory embryo sacs in the ovule"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2005",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_73",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_20": {
-    "questionText": "Which of the following are the important floral rewards to the animal pollinators?",
-    "type": "mcq",
-    "year": 2015,
-    "options": [
-      {
-        "key": "A",
-        "text": "Floral fragrance and calcium crystals"
-      },
-      {
-        "key": "B",
-        "text": "Protein pellicle and stigmatic exudates"
-      },
-      {
-        "key": "C",
-        "text": "Colour and large size of flower"
-      },
-      {
-        "key": "D",
-        "text": "Nectar and pollen grains"
-      }
-    ],
-    "correctKey": "D",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2015",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_20",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_21": {
-    "questionText": "Which one of the following may require pollinators, but is genetically similar to autogamy?",
-    "type": "mcq",
-    "year": 2015,
-    "options": [
-      {
-        "key": "A",
-        "text": "Apogamy"
-      },
-      {
-        "key": "B",
-        "text": "Cleistogamy"
-      },
-      {
-        "key": "C",
-        "text": "Geitonogamy"
-      },
-      {
-        "key": "D",
-        "text": "Xenogamy"
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2015",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_21",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_36": {
-    "questionText": "Which one of the following statements is correct?",
-    "type": "mcq",
-    "year": 2013,
-    "options": [
-      {
-        "key": "A",
-        "text": "Endothecium produces the microspores."
-      },
-      {
-        "key": "B",
-        "text": "Tapetum nourishes the developing pollen."
-      },
-      {
-        "key": "C",
-        "text": "Hard outer layer of pollen is called intine."
-      },
-      {
-        "key": "D",
-        "text": "Sporogenous tissue is haploid."
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2013",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_36",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_75": {
-    "questionText": "Through which cell of the embryo sac, does the pollen tube enter the embryo sac?",
-    "type": "mcq",
-    "year": 2005,
-    "options": [
-      {
-        "key": "A",
-        "text": "Egg cell"
-      },
-      {
-        "key": "B",
-        "text": "Persistent synergids"
-      },
-      {
-        "key": "C",
-        "text": "Degenerated synergids"
-      },
-      {
-        "key": "D",
-        "text": "Central cell"
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2005",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_75",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_30",
     "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
     "chapterId": null
   },
@@ -991,2050 +123,34 @@
     "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
     "chapterId": null
   },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_81": {
-    "questionText": "In angiosperm all the four microspores of tetrad are covered by a layer which is formed by",
-    "type": "mcq",
-    "year": 2002,
-    "options": [
-      {
-        "key": "A",
-        "text": "pectocellulose"
-      },
-      {
-        "key": "B",
-        "text": "callose"
-      },
-      {
-        "key": "C",
-        "text": "cellulose"
-      },
-      {
-        "key": "D",
-        "text": "sporopollenin"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2002",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_81",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_96": {
-    "questionText": "In an angiosperm, how many microspore mother cells are required to produce 100 pollen grains?",
-    "type": "mcq",
-    "year": 1995,
-    "options": [
-      {
-        "key": "A",
-        "text": "75"
-      },
-      {
-        "key": "B",
-        "text": "100"
-      },
-      {
-        "key": "C",
-        "text": "25"
-      },
-      {
-        "key": "D",
-        "text": "50"
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 1995",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_96",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_74": {
-    "questionText": "Which one of the following represents an ovule, where the embryo sac becomes horseshoe shaped and the funiculus and micropyle are close to each other?",
-    "type": "mcq",
-    "year": 2005,
-    "options": [
-      {
-        "key": "A",
-        "text": "Amphitropous"
-      },
-      {
-        "key": "B",
-        "text": "Circinotropous"
-      },
-      {
-        "key": "C",
-        "text": "Atropous"
-      },
-      {
-        "key": "D",
-        "text": "Anatropous"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2005",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_74",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_5": {
-    "questionText": "Double fertilisation is exhibited by",
-    "type": "mcq",
-    "year": 2017,
-    "options": [
-      {
-        "key": "A",
-        "text": "algae"
-      },
-      {
-        "key": "B",
-        "text": "fungi"
-      },
-      {
-        "key": "C",
-        "text": "angiosperms"
-      },
-      {
-        "key": "D",
-        "text": "gymnosperms"
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2017",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_5",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_43": {
-    "questionText": "Both, autogamy and geitonogamy are prevented in",
-    "type": "mcq",
-    "year": 2012,
-    "options": [
-      {
-        "key": "A",
-        "text": "papaya"
-      },
-      {
-        "key": "B",
-        "text": "cucumber"
-      },
-      {
-        "key": "C",
-        "text": "castor"
-      },
-      {
-        "key": "D",
-        "text": "maize"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2012",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_43",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_91": {
-    "questionText": "The role of double fertilization in angiosperms is to produce",
-    "type": "mcq",
-    "year": 1998,
-    "options": [
-      {
-        "key": "A",
-        "text": "cotyledons"
-      },
-      {
-        "key": "B",
-        "text": "endocarp"
-      },
-      {
-        "key": "C",
-        "text": "endosperm"
-      },
-      {
-        "key": "D",
-        "text": "integuments"
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 1998",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_91",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_65": {
-    "questionText": "Unisexuality of flowers prevents",
-    "type": "mcq",
-    "year": 2008,
-    "options": [
-      {
-        "key": "A",
-        "text": "geitonogamy, but not xenogamy"
-      },
-      {
-        "key": "B",
-        "text": "autogamy and geitonogamy"
-      },
-      {
-        "key": "C",
-        "text": "autogamy, but not geitonogamy"
-      },
-      {
-        "key": "D",
-        "text": "both geitonogamy and xenogamy"
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2008",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_65",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_61": {
-    "questionText": "Vegetative propagation in Pistia occurs by",
-    "type": "mcq",
-    "year": 2010,
-    "options": [
-      {
-        "key": "A",
-        "text": "stolon"
-      },
-      {
-        "key": "B",
-        "text": "offset"
-      },
-      {
-        "key": "C",
-        "text": "runner"
-      },
-      {
-        "key": "D",
-        "text": "sucker"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2010",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_61",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_76": {
-    "questionText": "When a diploid female plant is crossed with a tetraploid male, the ploidy of endosperm cells in the resulting seed is",
-    "type": "mcq",
-    "year": 2004,
-    "options": [
-      {
-        "key": "A",
-        "text": "tetraploidy"
-      },
-      {
-        "key": "B",
-        "text": "pentaploidy"
-      },
-      {
-        "key": "C",
-        "text": "diploidy"
-      },
-      {
-        "key": "D",
-        "text": "triploidy"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2004",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_76",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_38": {
-    "questionText": "Animal vectors are required for pollination in",
-    "type": "mcq",
-    "year": 2013,
-    "options": [
-      {
-        "key": "A",
-        "text": "Vallisneria"
-      },
-      {
-        "key": "B",
-        "text": "mulberry"
-      },
-      {
-        "key": "C",
-        "text": "cucumber"
-      },
-      {
-        "key": "D",
-        "text": "maize"
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2013",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_38",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_54": {
-    "questionText": "Wind pollination is common in",
-    "type": "mcq",
-    "year": 2011,
-    "options": [
-      {
-        "key": "A",
-        "text": "legumes"
-      },
-      {
-        "key": "B",
-        "text": "lilies"
-      },
-      {
-        "key": "C",
-        "text": "grasses"
-      },
-      {
-        "key": "D",
-        "text": "orchids"
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2011",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_54",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_46": {
-    "questionText": "Even in absence of pollinating agents seed-setting is assured in",
-    "type": "mcq",
-    "year": 2012,
-    "options": [
-      {
-        "key": "A",
-        "text": "Commelina"
-      },
-      {
-        "key": "B",
-        "text": "Zostera"
-      },
-      {
-        "key": "C",
-        "text": "Salvia"
-      },
-      {
-        "key": "D",
-        "text": "fig"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2012",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_46",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_44": {
-    "questionText": "An organic substance that can withstand environmental extremes and cannot be degraded by any enzyme is",
-    "type": "mcq",
-    "year": 2012,
-    "options": [
-      {
-        "key": "A",
-        "text": "cuticle"
-      },
-      {
-        "key": "B",
-        "text": "sporopollenin"
-      },
-      {
-        "key": "C",
-        "text": "lignin"
-      },
-      {
-        "key": "D",
-        "text": "cellulose"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2012",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_44",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_22": {
-    "questionText": "Which one of the following statements is not true?",
-    "type": "mcq",
-    "year": 2015,
-    "options": [
-      {
-        "key": "A",
-        "text": "The flowers pollinated by flies and bats secrete foul odour to attract them."
-      },
-      {
-        "key": "B",
-        "text": "Honey is made by bees by digesting pollen collected from flowers."
-      },
-      {
-        "key": "C",
-        "text": "Pollen grains are rich in nutrients and they are used in the form of tablets and syrups."
-      },
-      {
-        "key": "D",
-        "text": "Pollen grains of some plants cause severe allergies and bronchial afflictions in some people."
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2015",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_22",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_34": {
-    "questionText": "Advantage of cleistogamy is",
-    "type": "mcq",
-    "year": 2013,
-    "options": [
-      {
-        "key": "A",
-        "text": "no dependence on pollinators"
-      },
-      {
-        "key": "B",
-        "text": "vivipary"
-      },
-      {
-        "key": "C",
-        "text": "higher genetic variability"
-      },
-      {
-        "key": "D",
-        "text": "more vigorous offspring"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2013",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_34",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_94": {
-    "questionText": "If there are 4 cells in anthers, what will be the number of pollen grains?",
-    "type": "mcq",
-    "year": 1996,
-    "options": [
-      {
-        "key": "A",
-        "text": "16"
-      },
-      {
-        "key": "B",
-        "text": "12"
-      },
-      {
-        "key": "C",
-        "text": "8"
-      },
-      {
-        "key": "D",
-        "text": "4"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 1996",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_94",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_85": {
-    "questionText": "Anemophily type of pollination is found in",
-    "type": "mcq",
-    "year": 2001,
-    "options": [
-      {
-        "key": "A",
-        "text": "Salvia"
-      },
-      {
-        "key": "B",
-        "text": "bottle brush"
-      },
-      {
-        "key": "C",
-        "text": "Vallisneria"
-      },
-      {
-        "key": "D",
-        "text": "coconut"
-      }
-    ],
-    "correctKey": "D",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2001",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_85",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_37": {
-    "questionText": "Product of sexual reproduction generally generates",
-    "type": "mcq",
-    "year": 2013,
-    "options": [
-      {
-        "key": "A",
-        "text": "new genetic combination leading to variation"
-      },
-      {
-        "key": "B",
-        "text": "large biomass"
-      },
-      {
-        "key": "C",
-        "text": "longer viability of seeds"
-      },
-      {
-        "key": "D",
-        "text": "prolonged dormancy"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2013",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_37",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_72": {
-    "questionText": "The arrangement of the nuclei in a normal embryo sac in the dicot plants is",
-    "type": "mcq",
-    "year": 2006,
-    "options": [
-      {
-        "key": "A",
-        "text": "3 + 3 + 2"
-      },
-      {
-        "key": "B",
-        "text": "2 + 4 + 2"
-      },
-      {
-        "key": "C",
-        "text": "3 + 2 + 3"
-      },
-      {
-        "key": "D",
-        "text": "2 + 3 + 3"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2006",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_72",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_58": {
-    "questionText": "Transfer of pollen grains from the anther to the stigma of another flower of the same plant is called",
-    "type": "mcq",
-    "year": 2010,
-    "options": [
-      {
-        "key": "A",
-        "text": "xenogamy"
-      },
-      {
-        "key": "B",
-        "text": "geitonogamy"
-      },
-      {
-        "key": "C",
-        "text": "karyogamy"
-      },
-      {
-        "key": "D",
-        "text": "autogamy"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2010",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_58",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_19": {
-    "questionText": "Male gametophyte in angiosperms produces",
-    "type": "mcq",
-    "year": 2015,
-    "options": [
-      {
-        "key": "A",
-        "text": "single sperm and two vegetative cells"
-      },
-      {
-        "key": "B",
-        "text": "three sperms"
-      },
-      {
-        "key": "C",
-        "text": "two sperms and a vegetative cell"
-      },
-      {
-        "key": "D",
-        "text": "single sperm and a vegetative cell"
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2015",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_19",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_79": {
-    "questionText": "In a flowering plant, archesporium gives rise to",
-    "type": "mcq",
-    "year": 2003,
-    "options": [
-      {
-        "key": "A",
-        "text": "only the wall of the sporangium"
-      },
-      {
-        "key": "B",
-        "text": "both wall and the sporogenous cells"
-      },
-      {
-        "key": "C",
-        "text": "wall and the tapetum"
-      },
-      {
-        "key": "D",
-        "text": "only tapetum and sporogenous cells"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2003",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_79",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_30": {
-    "questionText": "Non-albuminous seed is produced in",
-    "type": "mcq",
-    "year": 2014,
-    "options": [
-      {
-        "key": "A",
-        "text": "maize"
-      },
-      {
-        "key": "B",
-        "text": "castor"
-      },
-      {
-        "key": "C",
-        "text": "wheat"
-      },
-      {
-        "key": "D",
-        "text": "pea"
-      }
-    ],
-    "correctKey": "D",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2014",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_30",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_10": {
-    "questionText": "Which one of the following statements is not true?",
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_8": {
+    "questionText": "The ovule of an angiosperm is technically equivalent to",
     "type": "mcq",
     "year": 2016,
     "options": [
       {
         "key": "A",
-        "text": "Pollen grains of many species cause severe allergies."
+        "text": "megasporangium"
       },
       {
         "key": "B",
-        "text": "Stored pollen in liquid nitrogen can be used in the crop breeding programmes."
-      },
-      {
-        "key": "C",
-        "text": "Tapetum helps in the dehiscence of anther."
-      },
-      {
-        "key": "D",
-        "text": "Exine of pollen grains is made up of sporopollenin."
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2016",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_10",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_13": {
-    "questionText": "Proximal end of the filament of stamen is attached to the",
-    "type": "mcq",
-    "year": 2016,
-    "options": [
-      {
-        "key": "A",
-        "text": "placenta"
-      },
-      {
-        "key": "B",
-        "text": "thalamus or petal"
-      },
-      {
-        "key": "C",
-        "text": "anther"
-      },
-      {
-        "key": "D",
-        "text": "connective"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2016",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_13",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_11": {
-    "questionText": "Seed formation without fertilisation in flowering plants involves the process of",
-    "type": "mcq",
-    "year": 2016,
-    "options": [
-      {
-        "key": "A",
-        "text": "somatic hybridisation"
-      },
-      {
-        "key": "B",
-        "text": "apomixis"
-      },
-      {
-        "key": "C",
-        "text": "sporulation"
-      },
-      {
-        "key": "D",
-        "text": "budding"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2016",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_11",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_31": {
-    "questionText": "Meiosis takes place in",
-    "type": "mcq",
-    "year": 2013,
-    "options": [
-      {
-        "key": "A",
-        "text": "gemmule"
-      },
-      {
-        "key": "B",
-        "text": "megaspore"
-      },
-      {
-        "key": "C",
-        "text": "meiocyte"
-      },
-      {
-        "key": "D",
-        "text": "conidia"
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2013",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_31",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_87": {
-    "questionText": "Eight nucleated embryo sac is",
-    "type": "mcq",
-    "year": 2000,
-    "options": [
-      {
-        "key": "A",
-        "text": "only monosporic"
-      },
-      {
-        "key": "B",
-        "text": "only bisporic"
-      },
-      {
-        "key": "C",
-        "text": "only tetrasporic"
-      },
-      {
-        "key": "D",
-        "text": "any of these"
-      }
-    ],
-    "correctKey": "D",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2000",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_87",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_47": {
-    "questionText": "What is the function of germ pore?",
-    "type": "mcq",
-    "year": 2012,
-    "options": [
-      {
-        "key": "A",
-        "text": "Emergence of radicle"
-      },
-      {
-        "key": "B",
-        "text": "Absorption of water for seed germination"
-      },
-      {
-        "key": "C",
-        "text": "Initiation of pollen tube"
-      },
-      {
-        "key": "D",
-        "text": "Release of male gametes"
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2012",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_47",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_51": {
-    "questionText": "Nucellar polyembryony is reported in species of",
-    "type": "mcq",
-    "year": 2011,
-    "options": [
-      {
-        "key": "A",
-        "text": "Citrus"
-      },
-      {
-        "key": "B",
-        "text": "Gossypium"
-      },
-      {
-        "key": "C",
-        "text": "Triticum"
-      },
-      {
-        "key": "D",
-        "text": "Brassica"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2011",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_51",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_28": {
-    "questionText": "Pollen tablets are available in the market for",
-    "type": "mcq",
-    "year": 2014,
-    "options": [
-      {
-        "key": "A",
-        "text": "in vitro fertilization"
-      },
-      {
-        "key": "B",
-        "text": "breeding programmes"
-      },
-      {
-        "key": "C",
-        "text": "supplementing food"
-      },
-      {
-        "key": "D",
-        "text": "ex situ conservation"
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2014",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_28",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_16": {
-    "questionText": "Flowers are unisexual in",
-    "type": "mcq",
-    "year": 2015,
-    "options": [
-      {
-        "key": "A",
-        "text": "China rose"
-      },
-      {
-        "key": "B",
-        "text": "onion"
-      },
-      {
-        "key": "C",
-        "text": "pea"
-      },
-      {
-        "key": "D",
-        "text": "cucumber"
-      }
-    ],
-    "correctKey": "D",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2015",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_16",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_48": {
-    "questionText": "Which one of the following statements is wrong?",
-    "type": "mcq",
-    "year": 2012,
-    "options": [
-      {
-        "key": "A",
-        "text": "When pollen is shed at two-celled stage, double fertilization does not take place."
-      },
-      {
-        "key": "B",
-        "text": "Vegetative cell is larger than generative cell."
-      },
-      {
-        "key": "C",
-        "text": "Pollen grains in some plants remain viable for months."
-      },
-      {
-        "key": "D",
-        "text": "Intine is made up of cellulose and pectin."
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2012",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_48",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_15": {
-    "questionText": "In angiosperms, microsporogenesis and megasporogenesis",
-    "type": "mcq",
-    "year": 2015,
-    "options": [
-      {
-        "key": "A",
-        "text": "involve meiosis"
-      },
-      {
-        "key": "B",
-        "text": "occur in ovule"
-      },
-      {
-        "key": "C",
-        "text": "occur in anther"
-      },
-      {
-        "key": "D",
-        "text": "form gametes without further divisions"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2015",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_15",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_26": {
-    "questionText": "Geitonogamy involves",
-    "type": "mcq",
-    "year": 2014,
-    "options": [
-      {
-        "key": "A",
-        "text": "fertilization of a flower by the pollen from another flower of the same plant"
-      },
-      {
-        "key": "B",
-        "text": "fertilization of a flower by the pollen from the same flower"
-      },
-      {
-        "key": "C",
-        "text": "fertilization of a flower by the pollen from a flower of another plant in the same population"
-      },
-      {
-        "key": "D",
-        "text": "fertilization of a flower by the pollen from a flower of another plant belonging to a distant population"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2014",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_26",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_18": {
-    "questionText": "Which one of the following fruits is parthenocarpic?",
-    "type": "mcq",
-    "year": 2015,
-    "options": [
-      {
-        "key": "A",
-        "text": "Jackfruit"
-      },
-      {
-        "key": "B",
-        "text": "Banana"
-      },
-      {
-        "key": "C",
-        "text": "Brinjal"
-      },
-      {
-        "key": "D",
-        "text": "Apple"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2015",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_18",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_56": {
-    "questionText": "What is common between vegetative reproduction and apomixis?",
-    "type": "mcq",
-    "year": 2011,
-    "options": [
-      {
-        "key": "A",
-        "text": "Both are applicable to only dicot plants"
-      },
-      {
-        "key": "B",
-        "text": "Both bypass the flowering phase"
-      },
-      {
-        "key": "C",
-        "text": "Both occur round the year"
-      },
-      {
-        "key": "D",
-        "text": "Both produce progeny identical to the parent"
-      }
-    ],
-    "correctKey": "D",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2011",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_56",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_101": {
-    "questionText": "Double fertilization is characteristic of",
-    "type": "mcq",
-    "year": 1993,
-    "options": [
-      {
-        "key": "A",
-        "text": "angiosperms"
-      },
-      {
-        "key": "B",
-        "text": "anatropous"
-      },
-      {
-        "key": "C",
-        "text": "gymnosperms"
-      },
-      {
-        "key": "D",
-        "text": "bryophytes"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 1993",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_101",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_59": {
-    "questionText": "Wind pollinated flowers are",
-    "type": "mcq",
-    "year": 2010,
-    "options": [
-      {
-        "key": "A",
-        "text": "small, brightly coloured, producing large number of pollen grains"
-      },
-      {
-        "key": "B",
-        "text": "small, producing large number of dry pollen grains"
-      },
-      {
-        "key": "C",
-        "text": "large producing abundant nectar and pollen"
-      },
-      {
-        "key": "D",
-        "text": "small, producing nectar and dry pollen"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2010",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_59",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_97": {
-    "questionText": "The polyembryony commonly occurs in",
-    "type": "mcq",
-    "year": 1995,
-    "options": [
-      {
-        "key": "A",
-        "text": "tomato"
-      },
-      {
-        "key": "B",
-        "text": "potato"
-      },
-      {
-        "key": "C",
-        "text": "Citrus"
-      },
-      {
-        "key": "D",
-        "text": "turmeric"
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 1995",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_97",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_27": {
-    "questionText": "An aggregate fruit is one which develops from",
-    "type": "mcq",
-    "year": 2014,
-    "options": [
-      {
-        "key": "A",
-        "text": "multicarpellary syncarpous gynoecium"
-      },
-      {
-        "key": "B",
-        "text": "multicarpellary apocarpous gynoecium"
-      },
-      {
-        "key": "C",
-        "text": "complete inflorescence"
-      },
-      {
-        "key": "D",
-        "text": "multicarpellary superior ovary"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2014",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_27",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_68": {
-    "questionText": "Two plants can be conclusively said to belong to the same species if they can reproduce freely with each other and form seeds.",
-    "type": "mcq",
-    "year": 2007,
-    "options": [
-      {
-        "key": "A",
-        "text": "have more than 90 percent similar genes"
-      },
-      {
-        "key": "B",
-        "text": "look similar and possess identical secondary metabolites"
-      },
-      {
-        "key": "C",
-        "text": "have same number of chromosomes"
-      },
-      {
-        "key": "D",
-        "text": "can reproduce freely with each other and form seeds"
-      }
-    ],
-    "correctKey": "D",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2007",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_68",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_99": {
-    "questionText": "Embryo sac represents",
-    "type": "mcq",
-    "year": 1994,
-    "options": [
-      {
-        "key": "A",
-        "text": "megaspore"
-      },
-      {
-        "key": "B",
-        "text": "megagametophyte"
-      },
-      {
-        "key": "C",
         "text": "megasporophyll"
       },
       {
-        "key": "D",
-        "text": "megagamete"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 1994",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_99",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_69": {
-    "questionText": "Which one of the following is surrounded by a callose wall?",
-    "type": "mcq",
-    "year": 2007,
-    "options": [
-      {
-        "key": "A",
-        "text": "Male gamete"
-      },
-      {
-        "key": "B",
-        "text": "Egg"
-      },
-      {
         "key": "C",
-        "text": "Pollen grain"
+        "text": "megaspore mother cell"
       },
       {
         "key": "D",
-        "text": "Microspore mother cell"
-      }
-    ],
-    "correctKey": "D",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2007",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_69",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_33": {
-    "questionText": "Perisperm differs from endosperm in",
-    "type": "mcq",
-    "year": 2013,
-    "options": [
-      {
-        "key": "A",
-        "text": "being a diploid tissue"
-      },
-      {
-        "key": "B",
-        "text": "its formation by fusion of secondary nucleus with several sperms"
-      },
-      {
-        "key": "C",
-        "text": "being a haploid tissue"
-      },
-      {
-        "key": "D",
-        "text": "having no reserve food"
+        "text": "megaspore"
       }
     ],
     "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2013",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_33",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_6": {
-    "questionText": "In majority of angiosperms",
-    "type": "mcq",
-    "year": 2016,
-    "options": [
-      {
-        "key": "A",
-        "text": "egg has a filiform apparatus"
-      },
-      {
-        "key": "B",
-        "text": "there are numerous antipodal cells"
-      },
-      {
-        "key": "C",
-        "text": "reduction division occurs in the megaspore mother cells"
-      },
-      {
-        "key": "D",
-        "text": "a small central cell is present in that embryo sac"
-      }
-    ],
-    "correctKey": "C",
     "explanation": "",
     "hasImage": false,
     "imageSummary": null,
     "examSession": "NEET 2016",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_6",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_78": {
-    "questionText": "Anthesis is a phenomenon which refers to",
-    "type": "mcq",
-    "year": 2004,
-    "options": [
-      {
-        "key": "A",
-        "text": "reception of pollen by stigma"
-      },
-      {
-        "key": "B",
-        "text": "formation of pollen"
-      },
-      {
-        "key": "C",
-        "text": "development of anther"
-      },
-      {
-        "key": "D",
-        "text": "opening of flower bud"
-      }
-    ],
-    "correctKey": "D",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2004",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_78",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_82": {
-    "questionText": "What is the direction of micropyle in anatropous ovule?",
-    "type": "mcq",
-    "year": 2002,
-    "options": [
-      {
-        "key": "A",
-        "text": "Upward"
-      },
-      {
-        "key": "B",
-        "text": "Downward"
-      },
-      {
-        "key": "C",
-        "text": "Right"
-      },
-      {
-        "key": "D",
-        "text": "Left"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2002",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_82",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_86": {
-    "questionText": "Endosperm is formed during the double fertilization by",
-    "type": "mcq",
-    "year": 2000,
-    "options": [
-      {
-        "key": "A",
-        "text": "two polar nuclei and one male gamete"
-      },
-      {
-        "key": "B",
-        "text": "one polar nuclei and one male gamete"
-      },
-      {
-        "key": "C",
-        "text": "ovum and male gamete"
-      },
-      {
-        "key": "D",
-        "text": "two polar nuclei and two male gametes"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2000",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_86",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_4": {
-    "questionText": "A dioecious flowering plant prevents both",
-    "type": "mcq",
-    "year": 2017,
-    "options": [
-      {
-        "key": "A",
-        "text": "autogamy and geitonogamy"
-      },
-      {
-        "key": "B",
-        "text": "geitonogamy and xenogamy"
-      },
-      {
-        "key": "C",
-        "text": "cleistogamy and xenogamy"
-      },
-      {
-        "key": "D",
-        "text": "autogamy and xenogamy"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2017",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_4",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_93": {
-    "questionText": "The role of double fertilization in angiosperms is to produce",
-    "type": "mcq",
-    "year": 1996,
-    "options": [
-      {
-        "key": "A",
-        "text": "cotyledons"
-      },
-      {
-        "key": "B",
-        "text": "endocarp"
-      },
-      {
-        "key": "C",
-        "text": "endosperm"
-      },
-      {
-        "key": "D",
-        "text": "hormones"
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 1996",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_93",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_63": {
-    "questionText": "Which one of the following pairs of plant structures has haploid number of chromosomes?",
-    "type": "mcq",
-    "year": 2008,
-    "options": [
-      {
-        "key": "A",
-        "text": "Nucellus and antipodal cells"
-      },
-      {
-        "key": "B",
-        "text": "Egg nucleus and secondary nucleus"
-      },
-      {
-        "key": "C",
-        "text": "Megaspore mother cell and antipodal cells"
-      },
-      {
-        "key": "D",
-        "text": "Egg cell and antipodal cells"
-      }
-    ],
-    "correctKey": "D",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2008",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_63",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_50": {
-    "questionText": "Filiform apparatus is a characteristic feature of",
-    "type": "mcq",
-    "year": 2011,
-    "options": [
-      {
-        "key": "A",
-        "text": "suspensor"
-      },
-      {
-        "key": "B",
-        "text": "egg"
-      },
-      {
-        "key": "C",
-        "text": "synergids"
-      },
-      {
-        "key": "D",
-        "text": "zygote"
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2011",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_50",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_39": {
-    "questionText": "Albuminous seeds store their reserve food mainly in",
-    "type": "mcq",
-    "year": 2013,
-    "options": [
-      {
-        "key": "A",
-        "text": "endosperm"
-      },
-      {
-        "key": "B",
-        "text": "cotyledons"
-      },
-      {
-        "key": "C",
-        "text": "hypocotyl"
-      },
-      {
-        "key": "D",
-        "text": "perisperm"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2013",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_39",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_32": {
-    "questionText": "Seed coat is not thin, membranous in",
-    "type": "mcq",
-    "year": 2013,
-    "options": [
-      {
-        "key": "A",
-        "text": "groundnut"
-      },
-      {
-        "key": "B",
-        "text": "gram"
-      },
-      {
-        "key": "C",
-        "text": "maize"
-      },
-      {
-        "key": "D",
-        "text": "coconut"
-      }
-    ],
-    "correctKey": "D",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2013",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_32",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_9": {
-    "questionText": "The coconut water from tender coconut represents",
-    "type": "mcq",
-    "year": 2016,
-    "options": [
-      {
-        "key": "A",
-        "text": "free nuclear proembryo"
-      },
-      {
-        "key": "B",
-        "text": "free nuclear endosperm"
-      },
-      {
-        "key": "C",
-        "text": "endocarp"
-      },
-      {
-        "key": "D",
-        "text": "fleshy mesocarp"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2016",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_9",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_70": {
-    "questionText": "Parthenocarpic tomato fruits can be produced by",
-    "type": "mcq",
-    "year": 2006,
-    "options": [
-      {
-        "key": "A",
-        "text": "treating the plants with phenylmercuric acetate"
-      },
-      {
-        "key": "B",
-        "text": "removing androecium of flowers before pollen grains are released"
-      },
-      {
-        "key": "C",
-        "text": "treating the plants with low concentrations of gibberellic acid and auxins"
-      },
-      {
-        "key": "D",
-        "text": "raising the plants from vernalized seeds"
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2006",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_70",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_7": {
-    "questionText": "Pollination in water hyacinth and water lily is brought about by the agency of",
-    "type": "mcq",
-    "year": 2016,
-    "options": [
-      {
-        "key": "A",
-        "text": "water"
-      },
-      {
-        "key": "B",
-        "text": "insects or wind"
-      },
-      {
-        "key": "C",
-        "text": "birds"
-      },
-      {
-        "key": "D",
-        "text": "bats"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2016",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_7",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_66": {
-    "questionText": "Which one of the following is resistant to enzyme action?",
-    "type": "mcq",
-    "year": 2008,
-    "options": [
-      {
-        "key": "A",
-        "text": "Pollen exine"
-      },
-      {
-        "key": "B",
-        "text": "Leaf cuticle"
-      },
-      {
-        "key": "C",
-        "text": "Cork"
-      },
-      {
-        "key": "D",
-        "text": "Wood fibre"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2008",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_66",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_98": {
-    "questionText": "When pollen of a flower is transferred to the stigma of another flower of the same plant, the pollination is referred to as",
-    "type": "mcq",
-    "year": 1994,
-    "options": [
-      {
-        "key": "A",
-        "text": "autogamy"
-      },
-      {
-        "key": "B",
-        "text": "geitonogamy"
-      },
-      {
-        "key": "C",
-        "text": "xenogamy"
-      },
-      {
-        "key": "D",
-        "text": "allogamy"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 1994",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_98",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_60": {
-    "questionText": "[DIAGRAM: Four diagrams labeled A, B, C, and D are shown. A depicts a plant with a horizontal stem-like structure; B shows a stalked reproductive structure of a bryophyte; C shows the embryo sac of an ovule with cells at the micropylar and chalazal ends and central polar nuclei; D shows a reproductive structure attached to a stalk in a lower plant.] Examine the figures (A-D) given below and select the right option out of (a-d), in which all the four structures A, B, C and D are identified correctly.\n\nA | B | C | D\n(a) Rhizome | Sporangiophore | Polar cell | Globule\n(b) Runner | Archegoniophore | Synergids | Antheridium\n(c) offset | Antheridiophore | Antipodals | Oogonium\n(d) Sucker | Seta | Megaspore mother cell | Gemma cup",
-    "type": "diagram",
-    "year": 2010,
-    "options": [
-      {
-        "key": "A",
-        "text": "Rhizome | Sporangiophore | Polar cell | Globule"
-      },
-      {
-        "key": "B",
-        "text": "Runner | Archegoniophore | Synergids | Antheridium"
-      },
-      {
-        "key": "C",
-        "text": "offset | Antheridiophore | Antipodals | Oogonium"
-      },
-      {
-        "key": "D",
-        "text": "Sucker | Seta | Megaspore mother cell | Gemma cup"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": true,
-    "imageSummary": "Four labeled biological figures show a vegetative stem structure, a bryophyte reproductive stalk, an ovule embryo sac, and a lower plant reproductive body to be identified correctly.",
-    "imageFile": "b615ff07e8a0f467f0a6f4783c4463eb_img.jpg",
-    "examSession": "NEET 2010",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_60",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_90": {
-    "questionText": "The embryo in sunflower has",
-    "type": "mcq",
-    "year": 1998,
-    "options": [
-      {
-        "key": "A",
-        "text": "two cotyledons"
-      },
-      {
-        "key": "B",
-        "text": "many cotyledons"
-      },
-      {
-        "key": "C",
-        "text": "no cotyledon"
-      },
-      {
-        "key": "D",
-        "text": "one cotyledon"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 1998",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_90",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_67": {
-    "questionText": "Male gametes in angiosperms are formed by the division of",
-    "type": "mcq",
-    "year": 2007,
-    "options": [
-      {
-        "key": "A",
-        "text": "generative cell"
-      },
-      {
-        "key": "B",
-        "text": "vegetative cell"
-      },
-      {
-        "key": "C",
-        "text": "microspore mother cell"
-      },
-      {
-        "key": "D",
-        "text": "microspore"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2007",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_67",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_57": {
-    "questionText": "Apomictic embryos in Citrus arise from",
-    "type": "mcq",
-    "year": 2010,
-    "options": [
-      {
-        "key": "A",
-        "text": "synergids"
-      },
-      {
-        "key": "B",
-        "text": "maternal sporophytic tissue in ovule"
-      },
-      {
-        "key": "C",
-        "text": "antipodal cells"
-      },
-      {
-        "key": "D",
-        "text": "diploid egg"
-      }
-    ],
-    "correctKey": "B",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2010",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_57",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_64": {
-    "questionText": "What does the filiform apparatus do at the entrance into ovule?",
-    "type": "mcq",
-    "year": 2008,
-    "options": [
-      {
-        "key": "A",
-        "text": "It brings about opening of the pollen tube."
-      },
-      {
-        "key": "B",
-        "text": "It guides pollen tube from a synergids to egg."
-      },
-      {
-        "key": "C",
-        "text": "It helps in the entry of pollen tube into a synergids."
-      },
-      {
-        "key": "D",
-        "text": "It prevents entry of more than one pollen tube into the embryo sac."
-      }
-    ],
-    "correctKey": "C",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2008",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_64",
-    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
-    "chapterId": null
-  },
-  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_83": {
-    "questionText": "Adventive embryony in Citrus is due to",
-    "type": "mcq",
-    "year": 2001,
-    "options": [
-      {
-        "key": "A",
-        "text": "nucellus"
-      },
-      {
-        "key": "B",
-        "text": "integuments"
-      },
-      {
-        "key": "C",
-        "text": "zygotic embryo"
-      },
-      {
-        "key": "D",
-        "text": "fertilized egg"
-      }
-    ],
-    "correctKey": "A",
-    "explanation": "",
-    "hasImage": false,
-    "imageSummary": null,
-    "examSession": "NEET 2001",
-    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_83",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_8",
     "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
     "chapterId": null
   },
@@ -3069,6 +185,130 @@
     "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
     "chapterId": null
   },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_7": {
+    "questionText": "Pollination in water hyacinth and water lily is brought about by the agency of",
+    "type": "mcq",
+    "year": 2016,
+    "options": [
+      {
+        "key": "A",
+        "text": "water"
+      },
+      {
+        "key": "B",
+        "text": "insects or wind"
+      },
+      {
+        "key": "C",
+        "text": "birds"
+      },
+      {
+        "key": "D",
+        "text": "bats"
+      }
+    ],
+    "correctKey": "B",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2016",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_7",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_16": {
+    "questionText": "Flowers are unisexual in",
+    "type": "mcq",
+    "year": 2015,
+    "options": [
+      {
+        "key": "A",
+        "text": "China rose"
+      },
+      {
+        "key": "B",
+        "text": "onion"
+      },
+      {
+        "key": "C",
+        "text": "pea"
+      },
+      {
+        "key": "D",
+        "text": "cucumber"
+      }
+    ],
+    "correctKey": "D",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2015",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_16",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_10": {
+    "questionText": "Which one of the following statements is not true?",
+    "type": "mcq",
+    "year": 2016,
+    "options": [
+      {
+        "key": "A",
+        "text": "Pollen grains of many species cause severe allergies."
+      },
+      {
+        "key": "B",
+        "text": "Stored pollen in liquid nitrogen can be used in the crop breeding programmes."
+      },
+      {
+        "key": "C",
+        "text": "Tapetum helps in the dehiscence of anther."
+      },
+      {
+        "key": "D",
+        "text": "Exine of pollen grains is made up of sporopollenin."
+      }
+    ],
+    "correctKey": "C",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2016",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_10",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_21": {
+    "questionText": "Which one of the following may require pollinators, but is genetically similar to autogamy?",
+    "type": "mcq",
+    "year": 2015,
+    "options": [
+      {
+        "key": "A",
+        "text": "Apogamy"
+      },
+      {
+        "key": "B",
+        "text": "Cleistogamy"
+      },
+      {
+        "key": "C",
+        "text": "Geitonogamy"
+      },
+      {
+        "key": "D",
+        "text": "Xenogamy"
+      }
+    ],
+    "correctKey": "C",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2015",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_21",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
   "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_2": {
     "questionText": "Attractants and rewards are required for",
     "type": "mcq",
@@ -3097,6 +337,595 @@
     "imageSummary": null,
     "examSession": "NEET 2017",
     "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_2",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_27": {
+    "questionText": "An aggregate fruit is one which develops from",
+    "type": "mcq",
+    "year": 2014,
+    "options": [
+      {
+        "key": "A",
+        "text": "multicarpellary syncarpous gynoecium"
+      },
+      {
+        "key": "B",
+        "text": "multicarpellary apocarpous gynoecium"
+      },
+      {
+        "key": "C",
+        "text": "complete inflorescence"
+      },
+      {
+        "key": "D",
+        "text": "multicarpellary superior ovary"
+      }
+    ],
+    "correctKey": "B",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2014",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_27",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_13": {
+    "questionText": "Proximal end of the filament of stamen is attached to the",
+    "type": "mcq",
+    "year": 2016,
+    "options": [
+      {
+        "key": "A",
+        "text": "placenta"
+      },
+      {
+        "key": "B",
+        "text": "thalamus or petal"
+      },
+      {
+        "key": "C",
+        "text": "anther"
+      },
+      {
+        "key": "D",
+        "text": "connective"
+      }
+    ],
+    "correctKey": "B",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2016",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_13",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_28": {
+    "questionText": "Pollen tablets are available in the market for",
+    "type": "mcq",
+    "year": 2014,
+    "options": [
+      {
+        "key": "A",
+        "text": "in vitro fertilization"
+      },
+      {
+        "key": "B",
+        "text": "breeding programmes"
+      },
+      {
+        "key": "C",
+        "text": "supplementing food"
+      },
+      {
+        "key": "D",
+        "text": "ex situ conservation"
+      }
+    ],
+    "correctKey": "C",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2014",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_28",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_4": {
+    "questionText": "A dioecious flowering plant prevents both",
+    "type": "mcq",
+    "year": 2017,
+    "options": [
+      {
+        "key": "A",
+        "text": "autogamy and geitonogamy"
+      },
+      {
+        "key": "B",
+        "text": "geitonogamy and xenogamy"
+      },
+      {
+        "key": "C",
+        "text": "cleistogamy and xenogamy"
+      },
+      {
+        "key": "D",
+        "text": "autogamy and xenogamy"
+      }
+    ],
+    "correctKey": "A",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2017",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_4",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_25": {
+    "questionText": "Which one of the following shows isogamy with non-flagellated gametes?",
+    "type": "mcq",
+    "year": 2014,
+    "options": [
+      {
+        "key": "A",
+        "text": "Sargassum"
+      },
+      {
+        "key": "B",
+        "text": "Ectocarpus"
+      },
+      {
+        "key": "C",
+        "text": "Ulothrix"
+      },
+      {
+        "key": "D",
+        "text": "Spirogyra"
+      }
+    ],
+    "correctKey": "D",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2014",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_25",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_20": {
+    "questionText": "Which of the following are the important floral rewards to the animal pollinators?",
+    "type": "mcq",
+    "year": 2015,
+    "options": [
+      {
+        "key": "A",
+        "text": "Floral fragrance and calcium crystals"
+      },
+      {
+        "key": "B",
+        "text": "Protein pellicle and stigmatic exudates"
+      },
+      {
+        "key": "C",
+        "text": "Colour and large size of flower"
+      },
+      {
+        "key": "D",
+        "text": "Nectar and pollen grains"
+      }
+    ],
+    "correctKey": "D",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2015",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_20",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_19": {
+    "questionText": "Male gametophyte in angiosperms produces",
+    "type": "mcq",
+    "year": 2015,
+    "options": [
+      {
+        "key": "A",
+        "text": "single sperm and two vegetative cells"
+      },
+      {
+        "key": "B",
+        "text": "three sperms"
+      },
+      {
+        "key": "C",
+        "text": "two sperms and a vegetative cell"
+      },
+      {
+        "key": "D",
+        "text": "single sperm and a vegetative cell"
+      }
+    ],
+    "correctKey": "C",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2015",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_19",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_24": {
+    "questionText": "Transmission tissue is characteristic feature of",
+    "type": "mcq",
+    "year": 2015,
+    "options": [
+      {
+        "key": "A",
+        "text": "dry stigma"
+      },
+      {
+        "key": "B",
+        "text": "wet stigma"
+      },
+      {
+        "key": "C",
+        "text": "hollow style"
+      },
+      {
+        "key": "D",
+        "text": "solid style"
+      }
+    ],
+    "correctKey": "D",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2015",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_24",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_6": {
+    "questionText": "In majority of angiosperms",
+    "type": "mcq",
+    "year": 2016,
+    "options": [
+      {
+        "key": "A",
+        "text": "egg has a filiform apparatus"
+      },
+      {
+        "key": "B",
+        "text": "there are numerous antipodal cells"
+      },
+      {
+        "key": "C",
+        "text": "reduction division occurs in the megaspore mother cells"
+      },
+      {
+        "key": "D",
+        "text": "a small central cell is present in that embryo sac"
+      }
+    ],
+    "correctKey": "C",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2016",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_6",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_1": {
+    "questionText": "Functional megaspore in an angiosperm develops into an",
+    "type": "mcq",
+    "year": 2017,
+    "options": [
+      {
+        "key": "A",
+        "text": "endosperm"
+      },
+      {
+        "key": "B",
+        "text": "embryo sac"
+      },
+      {
+        "key": "C",
+        "text": "embryo"
+      },
+      {
+        "key": "D",
+        "text": "ovule"
+      }
+    ],
+    "correctKey": "B",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2017",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_1",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_15": {
+    "questionText": "In angiosperms, microsporogenesis and megasporogenesis",
+    "type": "mcq",
+    "year": 2015,
+    "options": [
+      {
+        "key": "A",
+        "text": "involve meiosis"
+      },
+      {
+        "key": "B",
+        "text": "occur in ovule"
+      },
+      {
+        "key": "C",
+        "text": "occur in anther"
+      },
+      {
+        "key": "D",
+        "text": "form gametes without further divisions"
+      }
+    ],
+    "correctKey": "A",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2015",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_15",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_5": {
+    "questionText": "Double fertilisation is exhibited by",
+    "type": "mcq",
+    "year": 2017,
+    "options": [
+      {
+        "key": "A",
+        "text": "algae"
+      },
+      {
+        "key": "B",
+        "text": "fungi"
+      },
+      {
+        "key": "C",
+        "text": "angiosperms"
+      },
+      {
+        "key": "D",
+        "text": "gymnosperms"
+      }
+    ],
+    "correctKey": "C",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2017",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_5",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_12": {
+    "questionText": "Which of the following statements is not correct?",
+    "type": "mcq",
+    "year": 2016,
+    "options": [
+      {
+        "key": "A",
+        "text": "Pollen germination and pollen tube growth are regulated by chemical components of pollen interacting with those of the pistil."
+      },
+      {
+        "key": "B",
+        "text": "Some reptiles have also been reported as pollinators in some plant species."
+      },
+      {
+        "key": "C",
+        "text": "Pollen grains of many species can germinate on the stigma of a flower, but only one pollen tube of the same species grows into the style."
+      },
+      {
+        "key": "D",
+        "text": "Insects that consume pollen or nectar without bringing about pollination are called pollen/ nectar robbers."
+      }
+    ],
+    "correctKey": "C",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2016",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_12",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_26": {
+    "questionText": "Geitonogamy involves",
+    "type": "mcq",
+    "year": 2014,
+    "options": [
+      {
+        "key": "A",
+        "text": "fertilization of a flower by the pollen from another flower of the same plant"
+      },
+      {
+        "key": "B",
+        "text": "fertilization of a flower by the pollen from the same flower"
+      },
+      {
+        "key": "C",
+        "text": "fertilization of a flower by the pollen from a flower of another plant in the same population"
+      },
+      {
+        "key": "D",
+        "text": "fertilization of a flower by the pollen from a flower of another plant belonging to a distant population"
+      }
+    ],
+    "correctKey": "A",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2014",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_26",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_9": {
+    "questionText": "The coconut water from tender coconut represents",
+    "type": "mcq",
+    "year": 2016,
+    "options": [
+      {
+        "key": "A",
+        "text": "free nuclear proembryo"
+      },
+      {
+        "key": "B",
+        "text": "free nuclear endosperm"
+      },
+      {
+        "key": "C",
+        "text": "endocarp"
+      },
+      {
+        "key": "D",
+        "text": "fleshy mesocarp"
+      }
+    ],
+    "correctKey": "B",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2016",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_9",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_14": {
+    "questionText": "Filiform apparatus is characteristic feature of",
+    "type": "mcq",
+    "year": 2015,
+    "options": [
+      {
+        "key": "A",
+        "text": "aleurone cell"
+      },
+      {
+        "key": "B",
+        "text": "synergids"
+      },
+      {
+        "key": "C",
+        "text": "generative cell"
+      },
+      {
+        "key": "D",
+        "text": "nucellar embryo"
+      }
+    ],
+    "correctKey": "B",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2015",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_14",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_17": {
+    "questionText": "Coconut water from a tender coconut is",
+    "type": "mcq",
+    "year": 2015,
+    "options": [
+      {
+        "key": "A",
+        "text": "innermost layers of the seed coat"
+      },
+      {
+        "key": "B",
+        "text": "degenerated nucellus"
+      },
+      {
+        "key": "C",
+        "text": "immature embryo"
+      },
+      {
+        "key": "D",
+        "text": "free nuclear endosperm"
+      }
+    ],
+    "correctKey": "D",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2015",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_17",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_18": {
+    "questionText": "Which one of the following fruits is parthenocarpic?",
+    "type": "mcq",
+    "year": 2015,
+    "options": [
+      {
+        "key": "A",
+        "text": "Jackfruit"
+      },
+      {
+        "key": "B",
+        "text": "Banana"
+      },
+      {
+        "key": "C",
+        "text": "Brinjal"
+      },
+      {
+        "key": "D",
+        "text": "Apple"
+      }
+    ],
+    "correctKey": "B",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2015",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_18",
+    "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
+    "chapterId": null
+  },
+  "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_11": {
+    "questionText": "Seed formation without fertilisation in flowering plants involves the process of",
+    "type": "mcq",
+    "year": 2016,
+    "options": [
+      {
+        "key": "A",
+        "text": "somatic hybridisation"
+      },
+      {
+        "key": "B",
+        "text": "apomixis"
+      },
+      {
+        "key": "C",
+        "text": "sporulation"
+      },
+      {
+        "key": "D",
+        "text": "budding"
+      }
+    ],
+    "correctKey": "B",
+    "explanation": "",
+    "hasImage": false,
+    "imageSummary": null,
+    "examSession": "NEET 2016",
+    "id": "pyq_sexual-reproduction-in-flowering-plants-pdf_120944_11",
     "sourcePdf": "sexual-reproduction-in-flowering-plants-pdf_120944",
     "chapterId": null
   }

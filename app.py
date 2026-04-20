@@ -1,6 +1,6 @@
 """
 PYQ Matching QC App — Streamlit
-For reviewing the 200 QC PYQ matches against original NCERT sections.
+Supports both Tier 1 (verbatim) and Tier 2 (section-grounded) matches.
 
 Run:
     cd data_pipeline/qc_app
@@ -38,38 +38,29 @@ def load_parents():
 
 st.set_page_config(page_title="neet.bio — PYQ Match QC", layout="wide")
 st.title("neet.bio — PYQ Matching QC")
-st.caption("Review PYQ to NCERT matches for accuracy. Your wife's QC dashboard.")
+st.caption("Review Tier 1 (verbatim) and Tier 2 (section-grounded) matches")
 
 matched = load_matched()
 all_pyqs = load_all_pyqs()
 parents = load_parents()
 
-# Debug: show data loading stats
-first_id = list(all_pyqs.keys())[0] if all_pyqs else "NONE"
-first_pyq = all_pyqs.get(first_id, {})
-st.sidebar.write(f"PYQ file: pyqs_v2.json")
-st.sidebar.write(f"PYQs loaded: {len(all_pyqs)}")
-st.sidebar.write(f"First ID: {first_id[:40]}")
-st.sidebar.write(f"First Q text: '{str(first_pyq.get('questionText','EMPTY'))[:40]}'")
-st.sidebar.write(f"First opt A: '{str(first_pyq.get('options',[{}])[0].get('text','EMPTY'))}'")
-
-
 # ─── Summary stats ──────────────────────────────────────────────────────────
 
 total = len(matched)
-n_matched = sum(1 for r in matched if r.get("matched"))
-n_l1 = sum(1 for r in matched if r.get("level_at_success") == 1)
-n_l2 = sum(1 for r in matched if r.get("level_at_success") == 2)
-n_l3 = sum(1 for r in matched if r.get("level_at_success") == 3)
+n_verbatim = sum(1 for r in matched if r.get("classification") == "matched")
+n_grounded = sum(1 for r in matched if r.get("classification") == "section_grounded")
+n_discrepancy = sum(1 for r in matched if r.get("classification") == "claim_discrepancy_matched")
+n_total_matched = n_verbatim + n_grounded + n_discrepancy
 n_not_in = sum(1 for r in matched if r.get("classification") == "answer_not_in_ncert")
 n_disagree = sum(1 for r in matched if r.get("claim_agrees_with_gpt") is False)
 
-col1, col2, col3, col4, col5 = st.columns(5)
+col1, col2, col3, col4, col5, col6 = st.columns(6)
 col1.metric("Total", total)
-col2.metric("Matched", f"{n_matched} ({100*n_matched//max(1,total)}%)")
-col3.metric("L1 / L2 / L3", f"{n_l1} / {n_l2} / {n_l3}")
-col4.metric("Not in NCERT", n_not_in)
-col5.metric("GPT Disagreed", n_disagree)
+col2.metric("All Matched", f"{n_total_matched} ({100*n_total_matched//max(1,total)}%)")
+col3.metric("Tier 1 (Verbatim)", n_verbatim)
+col4.metric("Tier 2 (Section)", n_grounded)
+col5.metric("Not in NCERT", n_not_in)
+col6.metric("GPT Disagreed", n_disagree)
 
 st.divider()
 
@@ -79,11 +70,12 @@ col_f1, col_f2, col_f3 = st.columns(3)
 
 with col_f1:
     filter_class = st.selectbox("Classification", [
-        "ALL", "matched", "answer_not_in_ncert", "claim_discrepancy_matched", "pipeline_error"
+        "ALL", "matched", "section_grounded", "answer_not_in_ncert",
+        "claim_discrepancy_matched", "pipeline_error"
     ])
 
 with col_f2:
-    filter_level = st.selectbox("Level", ["ALL", "1", "2", "3", "None"])
+    filter_tier = st.selectbox("Tier", ["ALL", "Tier 1 (Verbatim)", "Tier 2 (Section)", "Not matched"])
 
 with col_f3:
     filter_agree = st.selectbox("GPT Agrees?", ["ALL", "Yes", "No"])
@@ -91,11 +83,13 @@ with col_f3:
 filtered = matched
 if filter_class != "ALL":
     filtered = [r for r in filtered if r.get("classification") == filter_class]
-if filter_level != "ALL":
-    if filter_level == "None":
-        filtered = [r for r in filtered if r.get("level_at_success") is None]
-    else:
-        filtered = [r for r in filtered if r.get("level_at_success") == int(filter_level)]
+if filter_tier != "ALL":
+    if filter_tier == "Tier 1 (Verbatim)":
+        filtered = [r for r in filtered if r.get("classification") == "matched"]
+    elif filter_tier == "Tier 2 (Section)":
+        filtered = [r for r in filtered if r.get("classification") == "section_grounded"]
+    elif filter_tier == "Not matched":
+        filtered = [r for r in filtered if r.get("classification") == "answer_not_in_ncert"]
 if filter_agree != "ALL":
     if filter_agree == "Yes":
         filtered = [r for r in filtered if r.get("claim_agrees_with_gpt") is True]
@@ -115,6 +109,7 @@ r = filtered[pyq_idx - 1]
 
 pyq_id = r.get("pyq_id", "")
 pyq_data = all_pyqs.get(pyq_id, {})
+cls = r.get("classification", "unknown")
 
 # ─── Left / Right layout ───────────────────────────────────────────────────
 
@@ -124,25 +119,27 @@ with left:
     st.subheader("Question")
 
     # Classification badge
-    cls = r.get("classification", "unknown")
-    level = r.get("level_at_success")
-    agrees = r.get("claim_agrees_with_gpt")
-
     if cls == "matched":
-        st.success(f"MATCHED at Level {level} | GPT Agrees: {agrees}")
+        st.success("TIER 1 — VERBATIM MATCH (exact NCERT sentence found)")
+    elif cls == "section_grounded":
+        st.info("TIER 2 — SECTION GROUNDED (answer in this section, no single verbatim sentence)")
     elif cls == "answer_not_in_ncert":
-        st.error(f"NOT IN NCERT | GPT Agrees: {agrees}")
+        st.error("NOT IN NCERT (answer not found in any section)")
     elif cls == "claim_discrepancy_matched":
-        st.warning(f"CLAIM DISCREPANCY (matched with GPT's answer) | GPT Agrees: {agrees}")
+        st.warning("CLAIM DISCREPANCY (matched using GPT's corrected answer)")
     else:
-        st.info(f"{cls} | Level: {level} | GPT Agrees: {agrees}")
+        st.warning(f"{cls}")
+
+    agrees = r.get("claim_agrees_with_gpt")
+    if agrees is False:
+        st.error(f"GPT DISAGREES with claimed answer key")
 
     st.write(f"**Year:** {r.get('year')} | **Type:** {r.get('pyq_type')} | **Source:** `{r.get('source_pdf', '')[:50]}`")
-    st.write(f"**Chapter assigned:** `{r.get('chapter_id', 'unknown')}`")
+    st.write(f"**Chapter:** `{r.get('chapter_id', 'unknown')}` | **Section:** {r.get('section_title', 'unknown')}")
 
     st.divider()
 
-    # Question text — use st.write for safety, fallback to question_preview
+    # Question text
     q_text = pyq_data.get("questionText") or r.get("question_preview") or "(no question text)"
     st.write("**QUESTION:**")
     st.text(q_text)
@@ -184,36 +181,33 @@ with left:
     if gpt_verification:
         st.caption(f"GPT reasoning: {gpt_verification.get('gpt_reasoning', '')} (confidence: {gpt_verification.get('gpt_confidence', '')})")
 
-    # Explanation from original PYQ
-    explanation = pyq_data.get("explanation", "")
-    if explanation:
+    # Fact extraction
+    fact_ext = r.get("fact_extraction") or {}
+    if fact_ext.get("fact"):
         st.divider()
-        st.write("**Original explanation:**")
-        st.caption(explanation)
+        st.write("**Extracted fact (in NCERT language):**")
+        st.info(fact_ext["fact"])
+        if fact_ext.get("key_terms"):
+            st.caption(f"Key terms: {', '.join(fact_ext['key_terms'])}")
 
 with right:
     st.subheader("NCERT Match")
 
-    if r.get("matched"):
-        parent_id = r.get("parent_block_id", "")
-        parent = parents.get(parent_id, {})
+    parent_id = r.get("parent_block_id", "")
+    parent = parents.get(parent_id, {})
+
+    if cls == "matched":
+        # ─── TIER 1: Verbatim ──────────────────────────────────────
+        st.success("Tier 1 — Verbatim")
 
         st.write(f"**Parent block:** `{parent_id}`")
         st.write(f"**Section:** {parent.get('section_title', 'unknown')}")
         st.write(f"**Chapter:** `{parent.get('chapter_id', '')}`")
 
-        # Answer span — the key thing to QC
         span_text = r.get("answer_span_text", "")
         if span_text:
-            st.write("**Answer span (verbatim from NCERT):**")
-            st.info(span_text)
-
-        # All quotes
-        all_quotes = r.get("all_quotes", [])
-        if len(all_quotes) > 1:
-            st.write(f"**All extracted quotes ({len(all_quotes)}):**")
-            for i, q in enumerate(all_quotes):
-                st.write(f"  {i+1}. _{q}_")
+            st.write("**Verbatim NCERT sentence:**")
+            st.warning(span_text)
 
         # Quote verifications
         verifs = r.get("quote_verifications", [])
@@ -223,39 +217,115 @@ with right:
                 ok = v.get("verbatim_ok", False)
                 match_type = v.get("match_type", "unknown")
                 if ok:
-                    st.write(f"  :white_check_mark: `{match_type}` — offsets [{v.get('relative_start')}, {v.get('relative_end')}]")
+                    st.write(f"  :white_check_mark: `{match_type}` — byte-for-byte confirmed")
                 else:
-                    st.write(f"  :x: `{match_type}` — NOT FOUND in parent text")
+                    st.write(f"  :x: `{match_type}` — NOT FOUND")
+
+        # Verification result
+        vr = r.get("verification_result") or {}
+        if vr.get("reason"):
+            st.caption(f"Verification: {vr['confidence']} — {vr['reason']}")
 
         # Full parent content with span highlighted
         st.divider()
-        st.write("**Full NCERT parent block (answer highlighted):**")
+        st.write("**NCERT paragraph (answer highlighted):**")
+        parent_content = parent.get("content", "")
+        if parent_content and span_text and span_text in parent_content:
+            before = parent_content[:parent_content.index(span_text)]
+            after = parent_content[parent_content.index(span_text) + len(span_text):]
+            st.text(before[-300:] if len(before) > 300 else before)
+            st.warning(span_text)
+            st.text(after[:300] if len(after) > 300 else after)
+        elif parent_content:
+            st.text(parent_content[:2000])
+
+    elif cls == "section_grounded":
+        # ─── TIER 2: Section Grounded ──────────────────────────────
+        st.info("Tier 2 — Section Grounded")
+
+        st.write(f"**Parent block:** `{parent_id}`")
+        st.write(f"**Section:** {parent.get('section_title', 'unknown')}")
+        st.write(f"**Chapter:** `{parent.get('chapter_id', '')}`")
+
+        sg = r.get("section_grounding") or {}
+
+        # Reasoning — the key QC item for Tier 2
+        if sg.get("reasoning"):
+            st.write("**How this section answers the question:**")
+            st.success(sg["reasoning"])
+
+        # Key facts used
+        key_facts = sg.get("key_facts_used", [])
+        if key_facts:
+            st.write(f"**Key NCERT facts used ({len(key_facts)}):**")
+            for i, f in enumerate(key_facts):
+                st.write(f"  {i+1}. {f}")
+
+        # Why not verbatim
+        vr = r.get("verification_result") or {}
+        why_not = vr.get("why_not_verbatim", "")
+        if why_not:
+            st.caption(f"Why not verbatim: {why_not}")
+
+        # Confidence
+        conf = sg.get("confidence", vr.get("confidence", ""))
+        if conf:
+            st.write(f"**Confidence:** {conf}")
+
+        # Full parent content
+        st.divider()
+        st.write("**Full NCERT paragraph:**")
         parent_content = parent.get("content", "")
         if parent_content:
-            if span_text and span_text in parent_content:
-                # Split around the span and show with highlight
-                before = parent_content[:parent_content.index(span_text)]
-                after = parent_content[parent_content.index(span_text) + len(span_text):]
-                st.text(before[-200:] if len(before) > 200 else before)
-                st.warning(span_text)
-                st.text(after[:200] if len(after) > 200 else after)
-            else:
-                st.text(parent_content[:2000])
+            st.text(parent_content[:2500])
         else:
             st.write("*(Parent content not available)*")
 
-        st.caption(r.get("notes", ""))
-
-    else:
-        st.error(f"Not matched: {cls}")
+    elif cls == "answer_not_in_ncert":
+        # ─── NOT MATCHED ───────────────────────────────────────────
+        st.error("Not found in any NCERT section")
         st.write(f"**Notes:** {r.get('notes', '')}")
 
-        # Show what levels were tried
+        # Show what was tried
         levels_tried = r.get("levels_tried", [])
         if levels_tried:
-            st.write("**Levels tried:**")
+            st.write("**Search attempts:**")
             for lt in levels_tried:
-                st.caption(f"Level {lt.get('level')}: query='{lt.get('query', '')[:80]}...', parents_tried={lt.get('parents_tried')}")
+                level = lt.get("level", "?")
+                if "rejected" in str(level):
+                    st.caption(f"  Rejected: {lt.get('verify_reason', '')[:120]}")
+                elif level == "hybrid":
+                    st.caption(f"  Hybrid search: {lt.get('candidates', 0)} candidates, fact: '{lt.get('fact', '')[:80]}...'")
+                elif level == "section_grounded":
+                    st.caption(f"  Section grounding attempted: confidence={lt.get('confidence', '?')}")
+                else:
+                    st.caption(f"  {level}")
+
+    else:
+        st.warning(f"Classification: {cls}")
+        st.write(f"**Notes:** {r.get('notes', '')}")
+
+    # Notes
+    notes = r.get("notes", "")
+    if notes:
+        st.caption(notes)
+
+# ─── Hybrid search scores (collapsible) ─────────────────────────────────────
+
+with st.expander("Hybrid search scores"):
+    scores = r.get("hybrid_scores", [])
+    if scores:
+        for s in scores:
+            pid = s.get("parent_id", "?")
+            p = parents.get(pid, {})
+            st.write(
+                f"  `{pid}` — combined={s.get('combined_score',0):.3f} "
+                f"(kw={s.get('keyword_score',0):.2f}, emb={s.get('embedding_score',0):.2f}, "
+                f"terms={s.get('keyword_terms_matched',0)}) "
+                f"— {p.get('section_title', '')[:50]}"
+            )
+    else:
+        st.write("No hybrid scores available")
 
 # ─── Raw JSON (collapsible) ─────────────────────────────────────────────────
 
